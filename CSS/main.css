@@ -10,51 +10,30 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
-.Heading_Buttoms ul li{
-    color: #FFFFFF;
-}
+/* Header */
 .header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 149px;
     margin-top: 29px;
 }
 .header_links a{
     text-decoration: none;
-    padding: 15px;
+    margin: 15px;
     color: rgb(153, 144, 144);
 }
 .pricing_link{
-    width: 104px;
-    height: 50px;
+    color: rgb(153, 144, 144);
     background-color: #333333;
+    border: none;
     border-radius: 6px;
 }
+/* Landing */
 .landing{
-    /* z-index: -1; */
-    display: flex;
-    justify-content: space-between;
-    padding: 0 149px;
     margin-top: 130px;
-    margin-bottom: -43px;
+    margin-bottom: 80px;
 }
 .landing_right{
-    width: 786px;
-    height: 696px;
-}
-.landibg_left_first{
-    width: 517px;
-    height: 176px;
-    font-family: Ellograph CF;
-    font-weight: 100;
-    font-size: 60px;
-    line-height: 59.4px;
-    color: white;
+    width: 50%;
 }
 .landibg_left_second{
-    width: 433px;
-    height: 93px;
     font-size: 20px;
     font-family: Manrope;
     font-weight: 400;
@@ -63,7 +42,6 @@ body{
     padding-top: 15px;
 }
 .landibg_left button{
-    width: 154px;
     height: 60px;
     border-radius: 6px;
     background-color: #EDCBFF;
@@ -72,12 +50,9 @@ body{
     font-family: Manrope;
     font-weight: 600;
     line-height: 23.04px;
-    margin-top: 40px;
 }
+/* grid_Landing */
 .grid_landing{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    row-gap: 100px;
     margin-bottom: 95.26px;
 }
 .grid_items{
@@ -88,6 +63,7 @@ body{
 hr{
     border: #333333 1px solid;
 }
+/* Container */
 .container{
     width: 1280px;
     margin: 0px auto;
@@ -97,9 +73,6 @@ hr{
 .item1{
     background-color: #1a1f22;
     border-radius: 12px;
-    /* In CSS */
-    /* display: flex;
-    justify-content: space-between; */
     padding: 30px 30px 0 30px;
     margin-bottom: 45px;
 }
